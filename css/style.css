@@ -29,6 +29,10 @@ body{
     font-size: 14px;
 }
 /* ================================================= */
+.imgFirst{
+    width: 100%;
+    object-fit: cover;
+}
 .firstSection{
     background: url(../images/backgroundwhite.png) repeat;
 }
@@ -41,10 +45,12 @@ body{
     background: url(../images/plus.png) repeat;
     height: 150px;
 }
+.prominentSection{
+    margin-top: -7rem;
+}
 .content {
     position: relative;
 }
-  
 .image {
     opacity: 1;
     display: block;
@@ -198,9 +204,14 @@ footer h1{
         height: 500px;
     }
 }
+@media screen and (max-width:768px){
+    .textMediaLarge{
+        font-size: 30px;
+    }
+}
 @media screen and (max-width:550px){
     footer h1 ,.textLg{
-        font-size: 46px;
+        font-size: 45px;
     }
     .btnSend{
         width: 100%;
