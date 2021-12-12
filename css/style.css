@@ -1,0 +1,211 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'MyriadPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF'); /* IE9 Compat Modes */
+}
+body{
+    font-family: 'MyriadPro';
+}
+.txtInter{
+    font-family: 'Inter';
+}
+.textBlack{
+    color: black;
+}
+.textGray{
+    color: #000;
+    opacity: 0.6;
+}
+.borderYellow{
+    border-bottom: 1px solid #d3c832;
+    font-family: 'MyriadPro';
+}
+.bgGray{
+    background-color:#f0f0f0;
+}
+.txtSmall{
+    font-size: 14px;
+}
+/* ================================================= */
+.firstSection{
+    background: url(../images/backgroundwhite.png) repeat;
+}
+.textAbsolute{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.bgImage{
+    background: url(../images/plus.png) repeat;
+    height: 150px;
+}
+.content {
+    position: relative;
+}
+  
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(36, 41, 44,0.8);
+}
+  
+.content:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-transform: uppercase;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* ========================== TDF Studios ================== */
+.bgYellow{
+    background-color: #f9ed30;
+}
+.bgYellow p{
+    color: black;
+    opacity: 0.6;
+}
+/* ========================== page studios ================== */
+.sectionStudios{
+    margin-top: -7rem;
+}
+.imgStudios{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.imgSpaces{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnBlack{
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.btnBlack:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.bgWhitePlus{
+    background: url(../images/backgroundwhite.png) repeat;
+}
+.width75{
+    width: 75%;
+}
+/* ========================== Footer ======================== */
+.bgBlack{
+    background-color: black;
+}
+footer h1{
+    font-size: 55px;
+    font-weight: 600;
+}
+.btnSend{
+    border: solid 1px #000;
+    background-color: #fff;
+    height: 54px;
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 16px;
+}
+.btnSend:hover{
+    background-color: black;
+    color: white;
+    border:1px solid #fff;
+}
+.menuFooter h1 sup{
+    font-size: 14px;
+    padding-left: 0.2rem;
+    top: -2rem;
+}
+.menuFooter h6{
+    font-family: 'Inter', sans-serif;
+}
+.menuFooter p ,.menuFooter p a{
+    color: #c5c5c5;
+}
+.borderBottom{
+    border-bottom: 1px solid #979797;
+}
+.textLg{
+    font-size: 54px;
+    font-family: 'MyriadPro';
+}
+/* ================================== Contact Us ================== */
+.contact{
+    background: url(../images/background.png) repeat;
+}
+.sup{
+    font-size: 14px;
+    top: -.8rem;
+}
+.sectionText{
+    margin-top: -4rem;
+}
+.formContact .form-control{
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0;
+    padding-left: 3px;
+    color: #979797;
+    border-left: 0px;
+}
+.formContact .form-control:focus{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    box-shadow: none;
+    border-bottom: 2px solid #f9ed30;
+}
+/* ================================== Media Quereies ================ */
+@media screen and (min-width:1400px){
+    .textLg{
+        font-size: 64px;
+    }
+}
+@media screen and (min-width:1300px){
+    .imgSpaces{
+        height: 500px;
+    }
+}
+@media screen and (max-width:550px){
+    footer h1 ,.textLg{
+        font-size: 46px;
+    }
+    .btnSend{
+        width: 100%;
+    }
+    .width75{
+        width: 100%;
+    }
+}
