@@ -6,7 +6,7 @@
     src: url('../fonts/MYRIADPRO-REGULAR.OTF'); /* IE9 Compat Modes */
 }
 body{
-    font-family: 'MyriadPro';
+    font-family: 'myriad-pro-bold', sans-serif
 }
 .txtInter{
     font-family: 'Inter';
@@ -18,6 +18,9 @@ body{
     color: #000;
     opacity: 0.6;
 }
+.fwMediam{
+    font-size: 21px;
+}
 .borderYellow{
     border-bottom: 1px solid #d3c832;
     font-family: 'MyriadPro';
@@ -27,6 +30,9 @@ body{
 }
 .txtSmall{
     font-size: 14px;
+}
+.text18{
+    font-size: 18px;
 }
 /* ================================================= */
 .imgFirst{
@@ -41,9 +47,19 @@ body{
     top: 20px;
     left: 40px;
 }
+.absoluteLarge{
+    position: absolute;
+    background: url(../images/vertical.png) repeat;
+    height: 400px;
+    width: 5rem;
+    left: -2rem;
+}
 .bgImage{
     background: url(../images/plus.png) repeat;
     height: 150px;
+    padding: 0rem 4rem;
+    position: absolute;
+    right: 0;
 }
 .prominentSection{
     margin-top: -7rem;
@@ -133,14 +149,14 @@ body{
     background-color: black;
 }
 footer h1{
-    font-size: 55px;
+    font-size: 41px;
     font-weight: 600;
 }
 .btnSend{
     border: solid 1px #000;
     background-color: #fff;
     height: 54px;
-    font-family: 'Inter';
+    font-family: 'myriad-pro-bold', sans-serif;
     font-weight: bold;
     font-size: 16px;
 }
@@ -164,8 +180,8 @@ footer h1{
     border-bottom: 1px solid #979797;
 }
 .textLg{
-    font-size: 54px;
-    font-family: 'MyriadPro';
+    font-size: 50px;
+    font-family: 'myriad-pro-bold', sans-serif;
 }
 /* ================================== Contact Us ================== */
 .contact{
@@ -194,24 +210,35 @@ footer h1{
     border-bottom: 2px solid #f9ed30;
 }
 /* ================================== Media Quereies ================ */
-@media screen and (min-width:1400px){
+/* @media screen and (min-width:1400px){
     .textLg{
         font-size: 64px;
     }
-}
+} */
 @media screen and (min-width:1300px){
     .imgSpaces{
-        height: 500px;
+        height: 555px;
+    }
+    /* .imgIntro{
+        object-fit: cover;
+        height: 650px;
+        width: 100%;
+    } */
+}
+@media screen and (max-width:991px){
+    .bgImage{
+        padding: 0rem 1rem;
+        position: relative;
     }
 }
 @media screen and (max-width:768px){
     .textMediaLarge{
-        font-size: 30px;
+        font-size: 27px;
     }
 }
 @media screen and (max-width:550px){
     footer h1 ,.textLg{
-        font-size: 45px;
+        font-size: 36px;
     }
     .btnSend{
         width: 100%;
