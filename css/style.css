@@ -34,6 +34,24 @@ body{
 .text18{
     font-size: 18px;
 }
+/* ===================================== Menu =================== */
+/* .modalMenu .modal-dialog{
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0rem auto;
+}
+.modalMenu .modal-content{
+    height: 100vh;
+} */
+.linkHover:hover{
+    color: black;
+    background-color: #d3c832;
+}
+.activeStudios{
+    color: black;
+    background-color: #d3c832;
+}
 /* ================================================= */
 .imgFirst{
     width: 100%;
@@ -184,6 +202,25 @@ footer h1{
     font-size: 50px;
     font-family: 'myriad-pro-bold', sans-serif;
 }
+/* ================================== Works ====================== */
+.sectionStudios .nav-pills{
+    border-bottom: 1px solid gray;
+}
+.sectionStudios .nav-item .nav-link{
+    color: black;
+}
+.sectionStudios .nav-item .nav-link.active{
+    background: none;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    border-radius: 0;
+}
+.imgFullWidth{
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
 /* ================================== Contact Us ================== */
 .contact{
     background: url(../images/background.png) repeat;
@@ -236,6 +273,9 @@ footer h1{
     .bgImage{
         padding: 0rem 1rem;
         position: relative;
+    }
+    .imgFullWidth{
+        height: 200px;
     }
 }
 @media screen and (max-width:768px){
