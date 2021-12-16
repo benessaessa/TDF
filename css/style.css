@@ -316,7 +316,7 @@ footer h1{
     footer h1 ,.textLg{
         font-size: 36px;
     }
-    .btnSend{
+    .btnSend ,.btnBlack{
         width: 100%;
     }
     .width75{
