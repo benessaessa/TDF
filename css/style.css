@@ -34,6 +34,17 @@ body{
 .text18{
     font-size: 18px;
 }
+.txtRed{
+    color: #f48673;
+}
+.table-responsive thead th{
+    border-color: #fff !important;
+}
+.table-responsive tbody td{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5a5656;
+}
 /* ===================================== Menu =================== */
 /* .modalMenu .modal-dialog{
     width: 100%;
@@ -252,6 +263,24 @@ footer h1{
     width: 10px;
     height: 10px;
     background-color: black;
+}
+/* ================================== About Us ===================== */
+.heightDev {
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+.heightDev img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 /* ================================== Media Quereies ================ */
 /* @media screen and (min-width:1400px){
