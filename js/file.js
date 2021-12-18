@@ -11,10 +11,10 @@ var swiper2 = new Swiper('.most-viewed .swiper-container', {
     //   el: '.most-viewed .pagination-container',
     //   clickable: true,
     },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true
-    },
+    // pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true
+    // },
     breakpoints: {
       300: {
         mousewheel: true,

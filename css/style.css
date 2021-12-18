@@ -68,6 +68,14 @@ body{
     width: 100%;
     object-fit: cover;
 }
+.imgAbsolute{
+    mix-blend-mode: multiply;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: -6rem;
+    margin-right: 4rem;
+}
 .firstSection{
     background: url(../images/backgroundwhite.png) repeat;
 }
@@ -100,7 +108,7 @@ body{
     opacity: 1;
     display: block;
     width: 100%;
-    height: 480px;
+    height: 530px;
     object-fit: cover;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -342,5 +350,16 @@ footer h1{
     }
     .width75{
         width: 100%;
+    }
+    .image{
+        height: 460px;
+    }
+    .imgAbsolute{
+        margin-right: 2rem;
+        width: 40%;
+        margin-bottom: -4rem;
+    }
+    .textMob a{
+        font-size: 20px;
     }
 }
