@@ -63,6 +63,9 @@ body{
     color: black;
     background-color: #d3c832;
 }
+.textMob a{
+    font-size: 2.5rem;
+}
 /* ================================================= */
 .imgFirst{
     width: 100%;
