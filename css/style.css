@@ -57,12 +57,15 @@ body{
 }
 .linkHover:hover{
     color: black;
-    background-color: #d3c832;
+    /* background-color: #d3c832; */
+    background: linear-gradient(to top, white 60%, #fbee34 18%, #fbee34 70%, #fbee34 82%);
+    padding-bottom: 0.5rem;
     background-position: 2rem 1rem;
 }
 .activeStudios{
+    background-position: 2rem 1rem;
     color: black;
-    background-color: #d3c832;
+    background: linear-gradient(to bottom, white 34%, #fbee34 44%, #fbee34 70%, #fbee34 82%);
 }
 .textMob a{
     font-size: 2.2rem;
