@@ -62,9 +62,10 @@ body{
 .linkHover:hover{
     color: black;
     /* background-color: #d3c832; */
-    background: linear-gradient(to top, white 60%, #fbee34 18%, #fbee34 70%, #fbee34 82%);
+    background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
+    /* background: linear-gradient(to top, white 60%, #fbee34 18%, #fbee34 70%, #fbee34 82%); */
     padding-bottom: 0.5rem;
-    background-position: 2rem 1rem;
+    background-position: 2rem 1.5rem;
 }
 .activeStudios{
     background-position: 2rem 1rem;
@@ -336,6 +337,13 @@ footer h1{
         height: 650px;
         width: 100%;
     } */
+    .linkHover:hover{
+        color: black;
+        /* background-color: #d3c832; */
+        background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
+        padding-bottom: 0.5rem;
+        background-position: 3rem 1.5rem;
+    }
 }
 @media screen and (min-width:1100px){
     .btnJoin{
