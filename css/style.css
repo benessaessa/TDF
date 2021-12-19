@@ -6,7 +6,8 @@
     src: url('../fonts/MYRIADPRO-REGULAR.OTF'); /* IE9 Compat Modes */
 }
 body{
-    font-family: 'myriad-pro-bold', sans-serif
+    font-family: 'myriad-pro-bold', sans-serif;
+    cursor: cell;
 }
 .txtInter{
     font-family: 'Inter';
@@ -367,6 +368,7 @@ footer h1{
 @media screen and (max-width:768px){
     .textMediaLarge{
         font-size: 27px;
+        line-height: normal;
     }
 }
 @media screen and (max-width:550px){
