@@ -79,6 +79,10 @@ body{
 .imgFirst{
     width: 100%;
     object-fit: cover;
+    max-height: 600px;
+}
+.cursorPointer{
+    cursor: pointer;
 }
 .imgAbsolute{
     mix-blend-mode: multiply;
@@ -314,11 +318,12 @@ footer h1{
     /* min-height: 340px; */
 }
 /* ================================== Media Quereies ================ */
-/* @media screen and (min-width:1400px){
-    .textLg{
-        font-size: 64px;
+@media screen and (min-width:1400px){
+    .textMob a{
+        font-size: 3.8rem;
+        line-height: 6rem;
     }
-} */
+}
 @media screen and (min-width:1300px){
     .imgSpaces{
         height: 555px;
