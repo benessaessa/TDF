@@ -323,6 +323,9 @@ footer h1{
         font-size: 3.8rem;
         line-height: 6rem;
     }
+    .rightText .text18{
+        font-size: 28px;
+    }
 }
 @media screen and (min-width:1300px){
     .imgSpaces{
