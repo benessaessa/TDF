@@ -49,6 +49,7 @@ body{
 /* ===================================== Menu =================== */
 .navbar-toggler:focus ,.navbar-toggler:active{
     box-shadow: none;
+    border: none;
 }
 .modalMenu .modal-dialog{
     width: 100%;
@@ -319,6 +320,31 @@ footer h1{
     border: 1px dashed black;
     /* min-height: 340px; */
 }
+/* ================================== Projects page ================= */
+.projectBg{
+    background: url(../images/project.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.bgOverlay{
+    background: rgba(36, 41, 44,0.6);
+    min-height: 100vh;
+}
+.textVLg{
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.textMuted{
+    color: #c5c5c5;
+}
+.absoluteSection{
+    position: absolute;
+    bottom: 40px;
+    width: auto;
+}
+.imageTall{
+    height: 775.1px;
+}
 /* ================================== Media Quereies ================ */
 @media screen and (min-width:1400px){
     .textMob a{
@@ -364,6 +390,12 @@ footer h1{
     .imgFullWidth{
         height: 200px;
     }
+    .absoluteSection{
+        position: relative;
+    }
+    .imageTall{
+        height: 500px;
+    }
 }
 @media screen and (max-width:768px){
     .textMediaLarge{
@@ -391,6 +423,9 @@ footer h1{
     }
     .textMob a{
         font-size: 20px;
+    }
+    .textVLg{
+        font-size: 60px;
     }
 }
 .scroll-down {
