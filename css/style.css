@@ -326,9 +326,36 @@ footer h1{
     background-size: 100%;
     min-height: 100vh;
 }
+.projectBg2{
+    background: url(../images/project3.png) no-repeat;
+    background-size: 100%;
+    height: 450px;
+}
+.projectBg3{
+    background: url(../images/works3.png) no-repeat;
+    background-size: 100%;
+    height: 450px;
+}
 .bgOverlay{
     background: rgba(36, 41, 44,0.6);
     min-height: 100vh;
+}
+.bgOverlay2{
+    background-color: rgba(36, 41, 44,0.4);
+    height: 450px;
+}
+.bgOverlay3{
+    background-color: rgba(36, 41, 44,0.8);
+    height: 450px;
+}
+.btnCircle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.textLight{
+    color: rgb(228, 221, 209);
 }
 .textVLg{
     font-size: 90px;
