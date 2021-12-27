@@ -495,6 +495,7 @@ footer h1{
     .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,
     .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome{
         background-repeat: repeat;
+        background-size: cover;
     }
 }
 @media screen and (max-width:768px){
