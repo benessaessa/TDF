@@ -488,6 +488,14 @@ footer h1{
     .imageTall{
         height: 500px;
     }
+    .AbsoluteMob{
+        position: absolute;
+        bottom: 0;
+    }
+    .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,
+    .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome{
+        background-repeat: repeat;
+    }
 }
 @media screen and (max-width:768px){
     .textMediaLarge{
