@@ -132,6 +132,15 @@ body{
     transition: .5s ease;
     backface-visibility: hidden;
 }
+.imageProject{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
 .overlay {
     position: absolute;
     top: 0;
@@ -327,14 +336,70 @@ footer h1{
     min-height: 100vh;
 }
 .projectBg2{
-    background: url(../images/project3.png) no-repeat;
+    background: url(../images/projects/telal1.png);
     background-size: 100%;
     height: 450px;
 }
 .projectBg3{
-    background: url(../images/works3.png) no-repeat;
+    background: url(../images/projects/costa1.png);
     background-size: 100%;
     height: 450px;
+}
+/* =========================================== */
+.projectTella{
+    background: url(../images/projects/telal1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectcosta{
+    background: url(../images/projects/costa1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectHacienda{
+    background: url(../images/projects/hacienda2.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectKrhacienda{
+    background: url(../images/projects/krhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectRkhacienda{
+    background: url(../images/projects/rkhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSmhacienda{
+    background: url(../images/projects/smhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectTnhacienda{
+    background: url(../images/projects/tnhacienda1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAlmaza{
+    background: url(../images/projects/almaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSbalmaza{
+    background: url(../images/projects/sbalmaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSsalmaza{
+    background: url(../images/projects/ssalmaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectShome{
+    background: url(../images/projects/shome1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
 }
 .bgOverlay{
     background: rgba(36, 41, 44,0.6);
@@ -370,7 +435,7 @@ footer h1{
     width: auto;
 }
 .imageTall{
-    height: 775.1px;
+    object-fit: cover;
 }
 /* ================================== Media Quereies ================ */
 @media screen and (min-width:1400px){
