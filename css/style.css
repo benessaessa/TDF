@@ -401,6 +401,51 @@ footer h1{
     background-size: 100%;
     min-height: 100vh;
 }
+.projectAaLondon{
+    background: url(../images/projects/aLondon1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectArabella{
+    background: url(../images/projects/arabella1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectPool{
+    background: url(../images/projects/poolhouse1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectNile{
+    background: url(../images/projects/nileplaza1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMirage{
+    background: url(../images/projects/mirage1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAllegria{
+    background: url(../images/projects/allegria1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectKatameya{
+    background: url(../images/projects/katameya1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectSlondon{
+    background: url(../images/projects/slondon1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectLake{
+    background: url(../images/projects/lake1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
 .bgOverlay{
     background: rgba(36, 41, 44,0.6);
     min-height: 100vh;
@@ -492,8 +537,9 @@ footer h1{
         position: absolute;
         bottom: 0;
     }
-    .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,
-    .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome{
+    .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,.projectArabella,
+    .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome,.projectAaLondon,
+    .projectPool,.projectNile,.projectMirage,.projectAllegria,.projectKatameya,.projectSlondon{
         background-repeat: repeat;
         background-size: cover;
     }
