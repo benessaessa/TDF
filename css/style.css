@@ -446,6 +446,131 @@ footer h1{
     background-size: 100%;
     min-height: 100vh;
 }
+.projectCarina{
+    background: url(../images/projects/carina1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectHuawei{
+    background: url(../images/projects/huawei1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectFekr{
+    background: url(../images/projects/fekr1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectAin{
+    background: url(../images/projects/ain1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaar{
+    background: url(../images/projects/emaar1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaarcity{
+    background: url(../images/projects/emaarcity1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectEmaarsquare{
+    background: url(../images/projects/emaarsquare1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMegypt{
+    background: url(../images/projects/megypt1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorth{
+    background: url(../images/projects/mnorth1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliaprop{
+    background: url(../images/projects/misritaliaprop1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliatwin{
+    background: url(../images/projects/misritaliatwin1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliastand{
+    background: url(../images/projects/misritaliastand1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritaliacity{
+    background: url(../images/projects/misritaliacity1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMisritalia{
+    background: url(../images/projects/misritalia1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMdevelopment{
+    background: url(../images/projects/mdevelopment1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMtrio{
+    background: url(../images/projects/mtrio1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMonsite{
+    background: url(../images/projects/monsite1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMresturant{
+    background: url(../images/projects/mresturant1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorthfinish{
+    background: url(../images/projects/mnorthfinish1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectMnorthhotel{
+    background: url(../images/projects/mnorthhotel1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectZamalek{
+    background: url(../images/projects/zamalek1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectCapital{
+    background: url(../images/projects/capital1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectCarinahead{
+    background: url(../images/projects/carinahead1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectBaky{
+    background: url(../images/projects/baky1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+.projectNamaa{
+    background: url(../images/projects/namaa1.png) no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
 .bgOverlay{
     background: rgba(36, 41, 44,0.6);
     min-height: 100vh;
@@ -539,7 +664,11 @@ footer h1{
     }
     .projectTella,.projectcosta,.projectHacienda,.projectKrhacienda,.projectRkhacienda,.projectArabella,
     .projectSmhacienda,.projectTnhacienda,.projectAlmaza,.projectSbalmaza,.projectSsalmaza,.projectShome,.projectAaLondon,
-    .projectPool,.projectNile,.projectMirage,.projectAllegria,.projectKatameya,.projectSlondon{
+    .projectPool,.projectNile,.projectMirage,.projectAllegria,.projectKatameya,.projectLake,.projectSlondon,.projectCarina,
+    .projectHuawei,.projectFekr,.projectAin,.projectEmaar,.projectEmaarcity,.projectEmaarsquare,.projectMegypt,.projectMnorth,
+    .projectMisritaliaprop,.projectMisritaliatwin,.projectMisritaliastand,.projectMisritaliacity,.projectMisritalia,
+    .projectMdevelopment,.projectMtrio,.projectMonsite,.projectMresturant,.projectMnorthfinish,.projectMnorthhotel,.projectZamalek,
+    .projectCapital,.projectCarinahead,.projectBaky,.projectNamaa{
         background-repeat: repeat;
         background-size: cover;
     }
