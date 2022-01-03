@@ -616,32 +616,32 @@ footer h1{
     object-fit: cover;
 }
 .modalMenu .modal-body .d-flex .w-100 h2:first-child a:hover,.activeAbout{
-    background: linear-gradient(to top, white 55%, #d96651 52%, #d96651 42%, #d96651 82%);
+    background: linear-gradient(to top, white 55%, #F48673 52%, #F48673 42%, #F48673 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
 .modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a:hover,.activeWedo{
-    background: linear-gradient(to top, white 55%, #60b5a3 52%, #60b5a3 42%, #60b5a3 82%);
+    background: linear-gradient(to top, white 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
 .modalMenu .modal-body .d-flex .w-100 h2:nth-child(3) a:hover,.activeWorks{
-    background: linear-gradient(to top, white 55%, #4ca1c3 52%, #4ca1c3 42%, #4ca1c3 82%);
+    background: linear-gradient(to top, white 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
 .modalMenu .modal-body .d-flex .w-100 h2:nth-child(4) a:hover,.activeHumans{
-    background: linear-gradient(to top, white 55%, #d27889 52%, #d27889 42%, #d27889 82%);
+    background: linear-gradient(to top, white 55%, #F6AEBF 52%, #F6AEBF 42%, #F6AEBF 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
 .modalMenu .modal-body .d-flex .w-100 :nth-child(5) a:hover,.activeStudios{
-    background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
+    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
 .modalMenu .modal-body .d-flex .w-100 h2:last-child a:hover,.activeContact{
-    background: linear-gradient(to top, white 55%, #7c8e08 52%, #7c8e08 42%, #7c8e08 82%);
+    background: linear-gradient(to top, white 55%, #BED860 52%, #BED860 42%, #BED860 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
