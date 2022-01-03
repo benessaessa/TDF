@@ -615,32 +615,32 @@ footer h1{
     width: 100%;
     object-fit: cover;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:first-child a{
+.modalMenu .modal-body .d-flex .w-100 h2:first-child a:hover,.activeAbout{
     background: linear-gradient(to top, white 55%, #d96651 52%, #d96651 42%, #d96651 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a{
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a:hover,.activeWedo{
     background: linear-gradient(to top, white 55%, #60b5a3 52%, #60b5a3 42%, #60b5a3 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:nth-child(3) a{
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(3) a:hover,.activeWorks{
     background: linear-gradient(to top, white 55%, #4ca1c3 52%, #4ca1c3 42%, #4ca1c3 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:nth-child(4) a{
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(4) a:hover,.activeHumans{
     background: linear-gradient(to top, white 55%, #d27889 52%, #d27889 42%, #d27889 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 :nth-child(5) a{
+.modalMenu .modal-body .d-flex .w-100 :nth-child(5) a:hover,.activeStudios{
     background: linear-gradient(to top, white 55%, #fbee34 52%, #fbee34 42%, #fbee34 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:last-child a{
+.modalMenu .modal-body .d-flex .w-100 h2:last-child a:hover,.activeContact{
     background: linear-gradient(to top, white 55%, #7c8e08 52%, #7c8e08 42%, #7c8e08 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
