@@ -620,13 +620,13 @@ footer h1{
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a:hover,.activeWedo{
-    background: linear-gradient(to top, white 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(2) a:hover,.activeWorks{
+    background: linear-gradient(to top, white 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 h2:nth-child(3) a:hover,.activeWorks{
-    background: linear-gradient(to top, white 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
+.modalMenu .modal-body .d-flex .w-100 :nth-child(3) a:hover,.activeStudios{
+    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
@@ -635,8 +635,8 @@ footer h1{
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
-.modalMenu .modal-body .d-flex .w-100 :nth-child(5) a:hover,.activeStudios{
-    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+.modalMenu .modal-body .d-flex .w-100 h2:nth-child(5) a:hover,.activePress{
+    background: linear-gradient(to top, white 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.5rem;
 }
@@ -647,6 +647,12 @@ footer h1{
 }
 .markRed{
     background-color: #d96651;
+}
+.colorHand{
+    background-color:#8CC8E8 ;
+}
+.humansMarked{
+    background-color: #F6AEBF;
 }
 /* ================================== Media Quereies ================ */
 @media screen and (min-width:1400px){
