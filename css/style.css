@@ -646,13 +646,29 @@ footer h1{
     background-position: 3rem 1.5rem;
 }
 .markRed{
-    background-color: #d96651;
+    background: linear-gradient(to top, #f0f0f0 55%, #d96651 52%, #d96651 42%, #d96651 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
+}
+.yellowMarked{
+    background: linear-gradient(to top, #f0f0f0 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem; 
+}
+.yellowMarkWhite{
+    background: linear-gradient(to top, white 55%, #FFEA3A 52%, #FFEA3A 42%, #FFEA3A 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem; 
 }
 .colorHand{
-    background-color:#8CC8E8 ;
+    background: linear-gradient(to top, #f0f0f0 55%, #8CC8E8 52%, #8CC8E8 42%, #8CC8E8 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
 }
 .humansMarked{
-    background-color: #F6AEBF;
+    background: linear-gradient(to top, #f0f0f0 55%, #F6AEBF 52%, #F6AEBF 42%, #F6AEBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.1rem;
 }
 /* ================================== Media Quereies ================ */
 @media screen and (min-width:1400px){
