@@ -184,6 +184,14 @@ body{
 .sectionStudios{
     margin-top: -7rem;
 }
+.imgPress{
+    margin-top: -10rem;
+}
+.imagePressNews{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
 .imgStudios{
     width: 100%;
     height: 300px;
@@ -674,6 +682,11 @@ footer h1{
     background: linear-gradient(to top, #f0f0f0 55%, #F6AEBF 52%, #F6AEBF 42%, #F6AEBF 82%);
     padding-bottom: 0.5rem;
     background-position: 3rem 1.1rem;
+}
+.markedPress{
+    background: linear-gradient(to top, #f0f0f0 55%, #8ACFBF 52%, #8ACFBF 42%, #8ACFBF 82%);
+    padding-bottom: 0.5rem;
+    background-position: 3rem 1.5rem;
 }
 .imgProject{
     width: 100%;
